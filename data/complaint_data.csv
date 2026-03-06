@@ -1,0 +1,301 @@
+city,state,complaint_type
+Geelong,VIC,Service
+Bunbury,WA,Billing
+Cairns,QLD,Outage
+Wagga Wagga,NSW,Technical
+Perth,WA,Technical
+Albany,WA,Technical
+Wollongong,NSW,Outage
+Geelong,VIC,Technical
+Townsville,QLD,Technical
+Adelaide,SA,Outage
+Perth,WA,Technical
+Wollongong,NSW,Outage
+Geelong,VIC,Outage
+Fremantle,WA,Service
+Geelong,VIC,Billing
+Adelaide,SA,Technical
+Devonport,TAS,Outage
+Hobart,TAS,Billing
+Newcastle,NSW,Billing
+Sydney,NSW,Billing
+Devonport,TAS,Service
+Brisbane,QLD,Outage
+Wollongong,NSW,Billing
+Townsville,QLD,Technical
+Melbourne,VIC,Technical
+Melbourne,VIC,Service
+Melbourne,VIC,Technical
+Brisbane,QLD,Technical
+Albany,WA,Billing
+Gold Coast,QLD,Service
+Bunbury,WA,Outage
+Whyalla,SA,Outage
+Albany,WA,Billing
+Geelong,VIC,Service
+Hobart,TAS,Billing
+Wagga Wagga,NSW,Technical
+Cairns,QLD,Billing
+Bendigo,VIC,Service
+Launceston,TAS,Outage
+Alice Springs,NT,Billing
+Townsville,QLD,Billing
+Canberra,ACT,Billing
+Brisbane,QLD,Billing
+Sydney,NSW,Technical
+Canberra,ACT,Outage
+Mount Gambier,SA,Billing
+Cairns,QLD,Outage
+Gold Coast,QLD,Billing
+Geelong,VIC,Billing
+Hobart,TAS,Billing
+Townsville,QLD,Outage
+Brisbane,QLD,Service
+Brisbane,QLD,Service
+Townsville,QLD,Technical
+Fremantle,WA,Service
+Devonport,TAS,Billing
+Mount Gambier,SA,Technical
+Mount Gambier,SA,Service
+Darwin,NT,Technical
+Geelong,VIC,Billing
+Townsville,QLD,Technical
+Sydney,NSW,Outage
+Hobart,TAS,Technical
+Devonport,TAS,Technical
+Cairns,QLD,Service
+Fremantle,WA,Technical
+Sydney,NSW,Technical
+Newcastle,NSW,Outage
+Whyalla,SA,Technical
+Whyalla,SA,Outage
+Ballarat,VIC,Billing
+Townsville,QLD,Billing
+Newcastle,NSW,Technical
+Townsville,QLD,Outage
+Brisbane,QLD,Service
+Canberra,ACT,Billing
+Sydney,NSW,Outage
+Adelaide,SA,Technical
+Gold Coast,QLD,Technical
+Darwin,NT,Outage
+Albany,WA,Technical
+Sydney,NSW,Technical
+Alice Springs,NT,Outage
+Gold Coast,QLD,Outage
+Mount Gambier,SA,Technical
+Darwin,NT,Technical
+Hobart,TAS,Billing
+Wollongong,NSW,Outage
+Bendigo,VIC,Service
+Bendigo,VIC,Service
+Brisbane,QLD,Billing
+Launceston,TAS,Outage
+Bendigo,VIC,Outage
+Hobart,TAS,Service
+Wagga Wagga,NSW,Technical
+Alice Springs,NT,Technical
+Adelaide,SA,Technical
+Devonport,TAS,Service
+Hobart,TAS,Outage
+Melbourne,VIC,Technical
+Mount Gambier,SA,Technical
+Darwin,NT,Outage
+Townsville,QLD,Billing
+Albany,WA,Technical
+Fremantle,WA,Technical
+Darwin,NT,Billing
+Albany,WA,Service
+Brisbane,QLD,Technical
+Mount Gambier,SA,Service
+Perth,WA,Billing
+Townsville,QLD,Billing
+Alice Springs,NT,Technical
+Ballarat,VIC,Technical
+Townsville,QLD,Service
+Melbourne,VIC,Billing
+Wagga Wagga,NSW,Billing
+Port Lincoln,SA,Outage
+Devonport,TAS,Service
+Wagga Wagga,NSW,Billing
+Mount Gambier,SA,Service
+Gold Coast,QLD,Outage
+Devonport,TAS,Billing
+Darwin,NT,Service
+Bunbury,WA,Outage
+Albany,WA,Technical
+Cairns,QLD,Outage
+Canberra,ACT,Service
+Sydney,NSW,Service
+Devonport,TAS,Technical
+Brisbane,QLD,Billing
+Devonport,TAS,Service
+Albany,WA,Billing
+Devonport,TAS,Billing
+Mount Gambier,SA,Service
+Devonport,TAS,Billing
+Launceston,TAS,Technical
+Wollongong,NSW,Service
+Melbourne,VIC,Technical
+Darwin,NT,Outage
+Hobart,TAS,Technical
+Townsville,QLD,Outage
+Mount Gambier,SA,Outage
+Devonport,TAS,Technical
+Geelong,VIC,Billing
+Brisbane,QLD,Technical
+Devonport,TAS,Service
+Melbourne,VIC,Billing
+Devonport,TAS,Billing
+Newcastle,NSW,Outage
+Mount Gambier,SA,Technical
+Alice Springs,NT,Technical
+Cairns,QLD,Technical
+Townsville,QLD,Billing
+Adelaide,SA,Technical
+Canberra,ACT,Billing
+Cairns,QLD,Service
+Port Lincoln,SA,Service
+Adelaide,SA,Service
+Ballarat,VIC,Billing
+Fremantle,WA,Billing
+Newcastle,NSW,Technical
+Hobart,TAS,Outage
+Brisbane,QLD,Outage
+Port Lincoln,SA,Outage
+Gold Coast,QLD,Service
+Devonport,TAS,Technical
+Gold Coast,QLD,Billing
+Melbourne,VIC,Billing
+Wagga Wagga,NSW,Technical
+Albany,WA,Outage
+Melbourne,VIC,Outage
+Darwin,NT,Outage
+Newcastle,NSW,Outage
+Perth,WA,Billing
+Perth,WA,Outage
+Wollongong,NSW,Billing
+Wollongong,NSW,Service
+Hobart,TAS,Technical
+Ballarat,VIC,Service
+Bunbury,WA,Outage
+Albany,WA,Technical
+Canberra,ACT,Billing
+Gold Coast,QLD,Billing
+Wollongong,NSW,Technical
+Geelong,VIC,Billing
+Darwin,NT,Technical
+Newcastle,NSW,Outage
+Melbourne,VIC,Billing
+Perth,WA,Billing
+Bunbury,WA,Service
+Adelaide,SA,Service
+Perth,WA,Service
+Adelaide,SA,Service
+Newcastle,NSW,Service
+Launceston,TAS,Service
+Mount Gambier,SA,Technical
+Cairns,QLD,Outage
+Wollongong,NSW,Outage
+Bunbury,WA,Technical
+Perth,WA,Technical
+Gold Coast,QLD,Technical
+Ballarat,VIC,Outage
+Hobart,TAS,Service
+Wollongong,NSW,Technical
+Hobart,TAS,Technical
+Albany,WA,Billing
+Bunbury,WA,Outage
+Geelong,VIC,Service
+Launceston,TAS,Outage
+Newcastle,NSW,Technical
+Alice Springs,NT,Billing
+Brisbane,QLD,Billing
+Hobart,TAS,Technical
+Devonport,TAS,Billing
+Launceston,TAS,Service
+Sydney,NSW,Technical
+Wagga Wagga,NSW,Billing
+Launceston,TAS,Outage
+Adelaide,SA,Technical
+Ballarat,VIC,Billing
+Cairns,QLD,Technical
+Whyalla,SA,Billing
+Wagga Wagga,NSW,Service
+Bendigo,VIC,Outage
+Townsville,QLD,Service
+Geelong,VIC,Service
+Cairns,QLD,Service
+Sydney,NSW,Service
+Devonport,TAS,Technical
+Adelaide,SA,Billing
+Alice Springs,NT,Billing
+Cairns,QLD,Outage
+Bendigo,VIC,Technical
+Ballarat,VIC,Service
+Geelong,VIC,Service
+Gold Coast,QLD,Service
+Albany,WA,Service
+Townsville,QLD,Outage
+Ballarat,VIC,Outage
+Albany,WA,Technical
+Hobart,TAS,Billing
+Whyalla,SA,Billing
+Wollongong,NSW,Billing
+Mount Gambier,SA,Technical
+Launceston,TAS,Billing
+Canberra,ACT,Outage
+Wollongong,NSW,Outage
+Bendigo,VIC,Service
+Wollongong,NSW,Billing
+Perth,WA,Outage
+Canberra,ACT,Outage
+Gold Coast,QLD,Billing
+Whyalla,SA,Billing
+Bendigo,VIC,Billing
+Fremantle,WA,Outage
+Gold Coast,QLD,Outage
+Adelaide,SA,Service
+Geelong,VIC,Outage
+Devonport,TAS,Billing
+Whyalla,SA,Outage
+Gold Coast,QLD,Outage
+Darwin,NT,Service
+Fremantle,WA,Technical
+Launceston,TAS,Billing
+Port Lincoln,SA,Service
+Mount Gambier,SA,Billing
+Brisbane,QLD,Technical
+Alice Springs,NT,Technical
+Newcastle,NSW,Service
+Gold Coast,QLD,Billing
+Devonport,TAS,Service
+Canberra,ACT,Billing
+Wagga Wagga,NSW,Outage
+Gold Coast,QLD,Technical
+Gold Coast,QLD,Service
+Adelaide,SA,Service
+Townsville,QLD,Billing
+Perth,WA,Outage
+Darwin,NT,Outage
+Newcastle,NSW,Outage
+Wollongong,NSW,Service
+Wollongong,NSW,Billing
+Ballarat,VIC,Service
+Mount Gambier,SA,Billing
+Perth,WA,Technical
+Perth,WA,Technical
+Townsville,QLD,Technical
+Wagga Wagga,NSW,Technical
+Whyalla,SA,Billing
+Geelong,VIC,Service
+Gold Coast,QLD,Billing
+Sydney,NSW,Technical
+Bunbury,WA,Outage
+Townsville,QLD,Service
+Perth,WA,Billing
+Canberra,ACT,Billing
+Launceston,TAS,Service
+Townsville,QLD,Service
+Whyalla,SA,Service
+Townsville,QLD,Technical
