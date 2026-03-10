@@ -1,20 +1,30 @@
-library('ggplot2')
-#check working directory
-getwd()
+library(shiny)
 
-#import your .csv file to your global environment
+ui <- fluidPage(
+  # create drop down menu
+  selectInput(inputId = "distr", label = "Distribution:",
+              choices = c("Normal" = "norm", "Uniform" = "unif")),
+  plotOutput("hist") # histogram placement
+)
 
-wforecasts <- read.csv("data/weather_forecasts.csv",header = TRUE,sep =",")
+server <- function(input, output) {
+  
+  # create reactive value with ID "data" and a default value
+  rv <- reactiveValues(data = 0)
+  
+  # change the actual value inside custom reactive value variable
+  observeEvent(input$distr, {
+    if(input$distr == "norm"){
+      rv$data <- rnorm(1000)
+    } else if(input$distr == "unif"){
+      rv$data <- runif(1000)
+    }
+  })
+  
+  # plot the histogram if reactive value changes
+  output$hist <- renderPlot({
+    hist(rv$data)
+  })
+}
 
-head(df)
-
-
-#Base R
-plot(wforecasts$forecast_temp,wforecasts$observed_temp)
-
-
-#ggplot
-
-ggplot(wforecasts,aes(x=forecast_temp,y=observed_temp))+geom_point()
-
-
+shinyApp(ui = ui, server = server)
