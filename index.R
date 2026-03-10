@@ -32,4 +32,58 @@ starwars %>%
   #View()
   plot()
 
-  
+View(msleep)
+glimpse(msleep$name)
+names(msleep)
+
+unique(msleep$vore)
+
+missing <- !complete.cases(msleep)
+
+msleep[missing,]
+
+# Clean
+
+####################
+# select variables
+
+starwars %>% 
+  select(name, height, mass)
+
+starwars %>% select(1:3)
+
+starwars %>% select(ends_with("color")) %>% View()
+
+#changing variable name
+
+starwars %>% 
+  rename("characters" = "name") %>% head()
+
+
+# changing a variable type
+
+class(starwars$hair_color)
+
+starwars$hair_color <- as.factor(starwars$hair_color)
+
+class(starwars$hair_color)
+
+
+starwars %>% mutate(hair_color = as.character(hair_color)) %>% 
+  glimpse()
+
+#changing factor levels
+df <- starwars
+
+df$sex <- as.factor(df$sex)
+
+levels(df$sex)
+
+df <- df %>% 
+  mutate(sex = factor(sex,
+                      levels = c("male","female","hermaphroditic","none")))
+
+levels(df$sex)
+
+
+
