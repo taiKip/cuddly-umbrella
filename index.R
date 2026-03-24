@@ -1,35 +1,47 @@
-library(ggplot2)
-library(ggbeeswarm)
-library(palmerpenguins)
+library(shiny)
+library(shinydashboard)
 
-ggplot(penguins) + geom_point(aes (x= bill_length_mm,y= bill_depth_mm, colour = species))
-
-ggplot(penguins, aes(x = sex, y = body_mass_g, colour = sex)) +
-  geom_beeswarm()
-
-library(ggplot2)
-library(palmerpenguins)
-
-ggplot(penguins, aes(x = bill_length_mm, y = body_mass_g, colour = species)) +
-  geom_point() +
-  geom_smooth(se = FALSE) +
-  facet_wrap(~ island)
-
-ggplot(penguins, aes(x = bill_length_mm, y = bill_depth_mm, colour = species)) +
-  geom_point(size = 3, alpha = 0.6) +  # size and transparency to match the visual
-  scale_colour_manual(values = c(
-    "Adelie" = "#F8766D",    # red-ish
-    "Chinstrap" = "#00BA38", # green-ish
-    "Gentoo" = "#619CFF"     # blue-ish
-  )) +
-  labs(
-    x = "Bill Length",
-    y = "Bill Depth",
-    colour = "Species"
-  ) +
-  theme_minimal(base_size = 14) +       # clean minimal theme
-  theme(
-    legend.position = "top",             # legend above plot
-    panel.grid.major = element_line(colour = "grey90"), 
-    panel.grid.minor = element_blank()
+# --- UI Section ---
+ui <- dashboardPage(
+  dashboardHeader(title = "Geyser Dashboard"),
+  
+  dashboardSidebar(
+    # We move the slider here to keep the main body clean
+    sidebarMenu(
+      sliderInput("bins", "Histogram bins:", min = 1, max = 50, value = 30)
+    )
+  ),
+  
+  dashboardBody(
+    fluidRow(
+      # We wrap the plot in a box to give it a border and title
+      box(
+        title = "Eruption Wait Times", 
+        status = "primary", 
+        solidHeader = TRUE,
+        plotOutput("distPlot", height = 300)
+      ),
+      
+      # We can add a second box for context or data summary
+      box(
+        title = "Dataset Info",
+        "The 'faithful' dataset contains the waiting time between eruptions and the duration of the eruption for the Old Faithful geyser in Yellowstone National Park."
+      )
+    )
   )
+)
+
+# --- Server Section ---
+server <- function(input, output) {
+  output$distPlot <- renderPlot({
+    # The logic remains exactly the same as your previous code!
+    hist(faithful$waiting,
+         breaks = input$bins + 1,
+         col = '#3c8dbc', # AdminLTE Blue to match the dashboard
+         border = 'white',
+         xlab = 'Waiting time (minutes)',
+         main = NULL) # Title is now handled by the box
+  })
+}
+
+shinyApp(ui, server)
