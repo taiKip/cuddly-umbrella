@@ -85,5 +85,39 @@ df <- df %>%
 
 levels(df$sex)
 
+#filter rows
 
+starwars %>% 
+  select(mass,sex) %>% 
+  filter(mass<55 &
+           sex == "male")
 
+#Recode data
+
+starwars %>% 
+  select(sex) %>% 
+  mutate(sex =recode(sex,
+                     "male"="man",
+                     "female"="woman"))
+
+#Dealing with missing data
+
+mean(starwars$height,na.rm=TRUE)
+
+#Dealing with duplicates
+Names <- c("Peter","John","Andrew","Peter")
+Age <- c(22,33,44,22)
+
+friends <- data.frame(Names,Age)
+
+View(friends)
+
+distinct(friends)
+
+#Manipulate
+################
+# Create of change a variable (mutate)
+
+starwars %>% 
+  mutate(height_m = height/100) %>% 
+  select(name,height, height_m)
